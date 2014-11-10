@@ -303,3 +303,7 @@ function get_post_parent($post) {
 		return $post->ID;
 	}
 }
+
+// Hide admin bar
+function my_function_admin_bar(){ return false; }
+add_filter( 'show_admin_bar' , 'my_function_admin_bar');

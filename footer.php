@@ -1,6 +1,6 @@
 <footer>
 	<div id="footer-sidebar" class="secondary">
-		<div class="container">
+		<div class="container clearfix">
 			<div id="footer-sidebar1">
 				<?php 
 					if(is_active_sidebar ('footer-sidebar1')){
@@ -11,7 +11,7 @@
 				<?php 
 					if(is_active_sidebar('footer-sidebar2')){
 					dynamic_sidebar('footer-sidebar2');
-					} ?>;
+					} ?>
 			</div> <!-- .footer-sidebar2 -->
 			<div id="footer-sidebar3">
 				<?php 
@@ -22,7 +22,7 @@
 		</div><!-- /.container -->	
 	</div>
   <div class="footer-copyright">
-    <p>&copy; Made by Lindsay Hartfiel <?php echo date('Y'); ?></p>
+    <p>Designed & Developed by Lindsay Hartfiel &copy;<?php echo date('Y'); ?></p>
   </div>
 </footer>
 
